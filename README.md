@@ -6,4 +6,19 @@ Music player ui design made with html and Tailwind css:
 #Incoming updates
 
 * Responsive design accross all platforms
-* Additions of Alpine Javascript (Alpine JS)
+* Addition of Alpine Javascript (Alpine JS).
+
+
+#Run Project
+	* Install project dependencies with npm 
+	```
+			$ npm install
+	```
+	*Install live server globally on your local machine
+	```
+			$ npm install -g live-server
+	```
+	* After installation run
+	```
+			$ live-server public
+	```
