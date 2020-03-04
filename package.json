@@ -1,0 +1,21 @@
+{
+  "name": "Qplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss  css/tailwind.css -o public/build/tailwind.css"
+  },
+  "keywords": [],
+  "author": "Bernard kissi",
+  "license": "ISC",
+  "repository":{
+     "type": "git",
+     "url": "git+https://github.com/bernardkissi/Qplayer-UI.git"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}

@@ -1,0 +1,100 @@
+/*tailwind classes*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-0{
+	background: linear-gradient(135deg,#6253E1,#04BEFE);
+}
+
+.gradient-1{
+	background: linear-gradient(135deg,#667EEA,#6B8DD6,#8E37D7);
+}
+
+.gradient-2{
+	background: linear-gradient(135deg,#77A1D3,#79CBCA);
+}
+
+.gradient-3{
+	background: linear-gradient(135deg,#25AAE1,#04BEFE,#3f86ED);
+}
+
+input:checked + svg {
+  	display: block;
+}
+
+/*sidebar utitilies*/
+
+.translate-x-full{
+	transform: translateX(-100%);
+  	transition-timing-function: ease-in;
+  	transition: 0.2s;
+}
+
+.translate-x-0{
+  transition: 0.25s;
+  transition-timing-function: ease-out;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+
+@media screen and (min-width: 640px) {
+  	.translate-x-full{
+  		transform: translateX(0);
+  		transition-timing-function: ease-in;
+  		transition: 0.2s;
+  	}
+}
+
+
+.sidebar-spotify::-webkit-scrollbar{
+  
+  width: 8px;
+  background: #E2E8F0;
+  
+}
+
+.sidebar-spotify::-webkit-scrollbar-thumb{
+    
+  border-radius: 8px;
+  background: #A0AEC0;
+
+}
+
+.content-spotify::-webkit-scrollbar{
+   width: 8px;
+   background: #E2E8F0;
+
+}
+
+.content-spotify::-webkit-scrollbar-thumb{
+
+   border-radius: 8px;
+   background: #A0AEC0;
+
+}
+
+.topbar{
+ background: #e96443;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
+ background: linear-gradient(to right, #904e95, #e96443); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.album-art{
+  
+  background-image: url(https://pbs.twimg.com/media/DiX_o4QXUAAtmKf.jpg:large);
+  background-size: cover;
+  background-position: center;
+
+}
+
+/*::-webkit-scrollbar          
+::-webkit-scrollbar-button  
+::-webkit-scrollbar-track      
+::-webkit-scrollbar-track-piece  
+::-webkit-scrollbar-thumb        
+::-webkit-scrollbar-corner       
+::-webkit-resizer   */     
